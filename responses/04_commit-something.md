@@ -30,23 +30,50 @@ In the first field, type a commit message. The commit message should briefly tel
 
 The following steps will guide you through the process of committing a change on GitHub.
 
-1. Create a new file on this branch, in a `_posts` folder called `0000-01-02-{{ user.username }}.md`. You can do so using [this shortcut]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=_posts/0000-01-02-{{ user.username }}.md) or manually as follows:
+1. Create a new file on this branch called `info.html`. You can do so using [this shortcut]({{ thePayload.repository.html_url }}/new/{{ thePayload.ref }}?filename=info.html) or manually as follows:
       - Return to the "Code" tab
       - In the branch drop-down, select "{{ thePayload.ref }}"
       - Click **Create new file**
-      - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`. Entering the `/` in the filename will automatically place your file in the `_posts` directory.
+      - In the "file name" field, type `info.html`.
 1. When you’re done naming the file, add the following content to your file:
 
-      ```yaml
-      ---
-      layout: slide
-      title: "Welcome to our second slide!"
-      ---
-      Your text
-      Use the left arrow to go back!
+      ```html
+      <!DOCTYPE html>
+      <html>
+
+      <head>
+        <meta charset="utf-8">
+        <title>Orpheus' Amazing Science Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+          main {
+            background-color: yellow;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+
+          html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightcyan;
+          }
+        </style>
+      </head>
+
+      <body>
+
+
+        <main>
+          <h1>Info Page.</h1>
+          <p>This site was created for the National Science Project Compeition, by Orpheus.</p>
+          <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Return to main page.</a></p>
+        </main>
+
+      </body>
+
+      </html>
       ```
 
-1. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions
+1. After adding the code, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions
 1. When you’ve entered a commit message, click **Commit new file**
 
 ---

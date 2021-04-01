@@ -8,13 +8,13 @@ Buut....
 
 > Every good science project *needs* a witty icebreaker!!
 
-Let’s add some content to your file. Replace line 5 of your file with a quotation, meme, or witty caption. Remember: [Markdown](https://guides.github.com/features/mastering-markdown/) is supported.
+Let’s add some content to your file. Replace line 30 of `info.html` with a funny joke.
 
 ### :keyboard: Activity: Change your file
 
 1. Click the [Files Changed tab]({{ url }}) in this pull request
 1. Edit your newly added file
-1. Replace line 5 with something new
+1. Replace line 30 with something new
 1. Scroll to the bottom and click **Commit Changes**
 
 **Note** : Can't find the button to edit the file? It may look like a pencil, or it may look like three dots.

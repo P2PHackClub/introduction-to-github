@@ -6,7 +6,7 @@ Written by JP and Reema, this hopefully should be working by the time the meetin
 
 ![Joyful_Orpheus](https://user-images.githubusercontent.com/18013689/113243440-406fe700-9270-11eb-8040-09a0ea660e87.png)
 
-> **Orpheus:** Hey! So..... I have a problem. I am making a slide deck for my science project, and... tbh I need a \*\*lot\*\* of help. I'm hosting it on GitHub, can you go in and make some changes?
+> **Orpheus:** Hey! So..... I have a problem. I am making a website for my science project, and... tbh I need a \*\*lot\*\* of help. I'm hosting the code on GitHub, can you get it working?
 
 ## **Mission Start!**
 

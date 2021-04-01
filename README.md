@@ -5,7 +5,7 @@ This repository powers the workshop [_P2P Hack Club's Introduction to GitHub_](h
 Every workshop in this series is made up of:
 
 - a [course repository](https://github.com/p2phackclub/introduction-to-github), and
-- a [template repository](https://github.com/p2phackclub/caption-this-template)
+- a [template repository](https://github.com/p2phackclub/inroduction-to-github-template)
 
 For more information on the goals of this course, check out the [`course-details.md`](course-details.md).
 

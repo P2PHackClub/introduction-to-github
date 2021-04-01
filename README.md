@@ -16,3 +16,5 @@ This course has been forked from githubtraining's Introduction to GitHub. Withou
 Please check them out at [githubtraining/introduction-to-github](https://lab.github.com/githubtraining/introduction-to-github).
 
 This course is licensed [CC-BY-4.0](../main/LICENSE) (c) 2021 [P2P Hack Club](https://p2phack.club).
+
+Dino images are from [hackclub/dinosaurs](https://github.com/hackclub/dinosaurs), drawn by the amazing [Hack Club](https://hackclub.com/) community. The images are licensed under the MIT License.

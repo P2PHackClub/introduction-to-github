@@ -1,9 +1,9 @@
 title: P2P Hack Club's Introduction to GitHub
 description: P2P Hack Club's quick and fun introduction to GitHub. 100% dino approved.
 template:
-  name: github-slideshow
-  repo: caption-this-template
-  description: 'A robot powered training repository :robot:'
+  name: orpheus's-science-project
+  repo: introduction-to-github-template
+  description: Dino + Science = Dino-mite
 before:
   - type: updateBranchProtection
   - type: createIssue

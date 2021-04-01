@@ -65,6 +65,9 @@ The following steps will guide you through the process of committing a change on
         <main>
           <h1>Info Page.</h1>
           <p>This site was created for the National Science Project Compeition, by Orpheus.</p>
+          <p>
+            [insert a joke here later when I think of one]
+          </p>
           <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Return to main page.</a></p>
         </main>
 

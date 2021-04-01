@@ -10,7 +10,7 @@ Written by JP and Reema, this hopefully should be working by the time the meetin
 
 ## **Mission Start!**
 
-![dino and octocat becoming friends](../media/dino_and_octocat_becoming_friends.png)
+![dino_and_octocat_becoming_friends](https://user-images.githubusercontent.com/18013689/113244295-f556d380-9271-11eb-8cfc-3ea77f688f06.png)
 
 To help Orpheus with their science project, you're going to need some knowledge of the hosting platform that they're using, GitHub. 
 

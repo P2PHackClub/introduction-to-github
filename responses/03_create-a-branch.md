@@ -2,7 +2,7 @@
 
 ![Joyful_Orpheus](https://user-images.githubusercontent.com/18013689/113243826-f5a29f00-9270-11eb-8aee-ba6e209d9a10.png)
 
-> **Orpheus:** In the process of developing my slide deck website, I really like to keep things organized in my commit history! That's why I like to do all of my work on **branches** before merging them back to the main repository. I'd like you to do the same, if that's okay with you.
+> **Orpheus:** In the process of developing my science project website, I really like to keep things organized in my commit history! That's why I like to do all of my work on **branches** before merging them back to the main repository. I'd like you to do the same, if that's okay with you.
 
 Let’s complete the first step of the GitHub flow: creating a branch <sup>[:book:](https://help.github.com/articles/github-glossary/#branch)</sup>.
 

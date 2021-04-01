@@ -8,7 +8,7 @@ Congratulations @{{ user.username }}, you've completed Orpheus's Science Project
 
 ## What went well
 
-Now, you have your slide deck deployed [here]({{ store.pagesUrl }}) and you've gone through the GitHub Flow.
+Now, Orpheus' Science Project is deployed [here]({{ store.pagesUrl }}) and you've gone through the GitHub Flow.
 
 Before we say good-bye, here's a recap of all the tasks you've accomplished in your repository:
 

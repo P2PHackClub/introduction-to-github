@@ -1,4 +1,8 @@
-## Step 6: Open a pull request
+# Step 6: Opening a pull request
+
+![Joyful_Orpheus](https://user-images.githubusercontent.com/18013689/113244032-7366aa80-9271-11eb-9352-7a681e6aa91f.png)
+> **Orpheus:** I've seen a lot of changes in your branch! Can you submit them to me for review in a pull request? Great thanksss!
+
 
 Nice work making that commit :sparkles:
 
@@ -26,5 +30,5 @@ This pull request is going to keep the changes you just made on your branch and 
 1. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request
 1. Click **Create pull request**
 
-<hr>
+---
 <h3 align="center">I'll respond in your new pull request.</h3>

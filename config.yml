@@ -115,13 +115,13 @@ steps:
       - type: gate
         left: '%actions.tree.data.tree%'
         operator: includes
-        right: 'path:/_posts\/\d{4}-\d{2}-\d{2}-%user.username%\.md/'
+        right: 'path:/info.html/'
         else:
           - type: createReview
             body: 06_fix-filename.md
             event: REQUEST_CHANGES
             data:
-              expected: _posts/0000-01-02-%user.username%.md
+              expected: info.html
               url: '%payload.pull_request.html_url%/files'
       - type: createReview
         body: 06_request-changes.md

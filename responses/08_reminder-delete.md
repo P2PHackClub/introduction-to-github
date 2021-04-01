@@ -1,14 +1,16 @@
-## Nice work
+# Nice work!
 
-![celebrate](https://octodex.github.com/images/collabocats.jpg)
+![party_orpheus](https://user-images.githubusercontent.com/18013689/113244649-abbab880-9272-11eb-9487-6a13ffe1271e.png)
 
-Congratulations @{{ user.username }}, you've completed this course!
+Congratulations @{{ user.username }}, you've completed Orpheus's Science Project (of course they'll get all the credit).
+
+> Thank you so much, I couldn't have done this without you!
 
 ## What went well
 
 Now, you have your slide deck deployed [here]({{ store.pagesUrl }}) and you've gone through the GitHub Flow.
 
-Before I say good-bye, here's a recap of all the tasks you've accomplished in your repository:
+Before we say good-bye, here's a recap of all the tasks you've accomplished in your repository:
 
 - You learned about issues, pull requests, and the structure of a GitHub repository
 - You learned about branching
@@ -17,10 +19,6 @@ Before I say good-bye, here's a recap of all the tasks you've accomplished in yo
 - You edited an existing file
 - You enabled GitHub Pages
 - You made your first contribution! :tada:  
-
-## Give us feedback
-
-We'd love to hear what you thought of this course. Please share your feedback in [this brief survey](https://www.surveymonkey.com/r/intro-to-github-1).
 
 ## What's next?
 
@@ -32,7 +30,8 @@ To find projects to contribute to through trending topics and curated collection
 
 ### Keep learning
 
-Here are some suggestions for future courses you can take:
+Here are some suggestions for future courses by the GitHub Training Team you can take:
+
 - [GitHub Pages]({{ host }}/{{ course.Owner.login }}/github-pages): Continue learning about GitHub Pages, which we touched on in this course.
 - [Communicating using Markdown]({{ host }}/{{ course.Owner.login }}/communicating-using-markdown): We used a little Markdown in this course, but if you want to learn all about this :sparkles: syntax, take the course!
 

@@ -16,19 +16,6 @@ preferences:
         value: cli
       - label: Use Visual Studio Code
         value: vscode
-  - type: dropdown
-    name: language
-    label: Language
-    description: Choose your preferred language.
-    options:
-      - label: English
-        value: en
-      - label: Español
-        value: es
-      - label: 日本語
-        value: ja
-      - label: Français
-        value: fr
 before:
   - type: updateBranchProtection
   - type: createIssue
@@ -39,16 +26,6 @@ before:
 steps:
   - title: Assign yourself
     description: Assign the first issue to yourself.
-    translations:
-      es:
-        title: Asígnate
-        description: Asígnate la primera propuesta.
-      fr:
-        title: Assignation
-        description: Assignez-vous la première Issue.
-      ja:
-        title: 担当者になろう
-        description: 初めてのイシューの担当者になりましょう。
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -60,16 +37,6 @@ steps:
         with: 01_turn-on-gh-pages.md
   - title: Turn on GitHub Pages
     description: Turn on GitHub Pages in the settings page of the repository.
-    translations:
-      es:
-        title: Activa GitHub Pages
-        description: Activa GitHub Pages en la página de configuración del repositorio.
-      fr:
-        title: Activation de GitHub Pages
-        description: Activez GitHub Pages sur la page de configuration du dépôt.
-      ja:
-        title: GitHub Pagesを有効化しよう
-        description: リポジトリの設定画面でGitHub Pagesを有効化しましましょう。
     event: page_build
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -85,16 +52,6 @@ steps:
         with: 02_close-issue.md
   - title: Close an issue
     description: Cease a conversation by closing an issue.
-    translations:
-      es:
-        title: Cierra una propuesta
-        description: Termina una conversación al cerrar una propuesta.
-      fr:
-        title: Fermer l'Issue
-        description: Achevez l'Issue en la cloturant.
-      ja:
-        title: Issueを閉じよう
-        description: Issueを閉じることで議論を終えましょう。
     event: issues.closed
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -112,16 +69,6 @@ steps:
           issueURL: '%actions.contrib_issue.data.html_url%'
   - title: Create a branch
     description: Create a branch for introducing new changes.
-    translations:
-      es:
-        title: Crea una rama
-        description: Crea una rama para introducir nuevos cambios.
-      fr:
-        title: Création d'une branche
-        description: Créez une branche afin d'introduire un changement.
-      ja:
-        title: ブランチを作ろう
-        description: 新しい変更をするためのブランチを作りましょう。
     event: create
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -132,16 +79,6 @@ steps:
           thePayload: '%payload%'
   - title: Commit a file
     description: Commit your file to the branch.
-    translations:
-      es:
-        title: Confirma un archivo
-        description: Confirma un archivo a tu rama.
-      fr:
-        title: Soumettre un fichier
-        description: Ajoutez un fichier à votre branche.
-      ja:
-        title: ファイルをコミットしよう
-        description: ブランチにファイルをコミットしましょう。
     event: push
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -153,20 +90,6 @@ steps:
           url: '%payload.repository.html_url%/compare/%payload.ref%?expand=1'
   - title: Open a pull request
     description: Open a pull request to propose your new file to the codebase.
-    translations:
-      es:
-        title: Abre una solicitud de extracción
-        description: >-
-          Abre una solicitud de extracción para proponer agregar tu nuevo
-          archivo al proyecto.
-      fr:
-        title: Ouverture d'une Pull Request
-        description: >-
-          Ouvrez une Pull Request afin de proposer l'ajout de votre fichier au
-          projet.
-      ja:
-        title: プルリクエストをオープンしよう
-        description: 新しいファイルをコードベースに追加する提案をするためにプルリクエストをオープンしましょう。
     event: pull_request
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -220,16 +143,6 @@ steps:
           url: '%payload.pull_request.html_url%/files'
   - title: Respond to a review
     description: Respond to a PR review.
-    translations:
-      es:
-        title: Responde a una revisión
-        description: Responde a una revisión en tu solicitud de extracción.
-      fr:
-        title: Réponse à une revue
-        description: Répondez à la relecture de votre Pull Request.
-      ja:
-        title: レビューに対応しよう
-        description: プルリクエストへのレビューへの対応をしましょう。
     event: pull_request.synchronize
     link: '{{ repoUrl }}/pull/3'
     actions:
@@ -241,16 +154,6 @@ steps:
           branch: '%payload.pull_request.head.ref%'
   - title: Merge your pull request
     description: Make your changes live by merging your PR.
-    translations:
-      es:
-        title: Fusiona tu solicitud de extracción
-        description: Publica tus cambios al fusionar tu solicitud de extracción.
-      fr:
-        title: Fusion de la Pull Request
-        description: Livrez vos changement en fusionant votre Pull Request.
-      ja:
-        title: プルリクエストをマージしよう
-        description: プルリクエストをマージすることで変更を取り込みましょう。
     event: pull_request.closed
     link: '{{ repoUrl }}/pull/3'
     actions:

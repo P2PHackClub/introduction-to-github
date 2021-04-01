@@ -1,4 +1,8 @@
-## Step 5: Commit a file
+# Step 5: Commit a file
+
+![Joyful_Orpheus](https://user-images.githubusercontent.com/18013689/113243939-38647700-9271-11eb-97d7-0c579828bab8.png)
+
+> **Orpheus:** Heyyyyyyyy... about that new branch. Pretty nice, but like there's nothing changed in it yet. Get on that. xoxoxoxo
 
 :tada: You created a branch!
 
@@ -32,6 +36,7 @@ The following steps will guide you through the process of committing a change on
       - Click **Create new file**
       - In the "file name" field, type `_posts/0000-01-02-{{ user.username }}.md`. Entering the `/` in the filename will automatically place your file in the `_posts` directory.
 1. When you’re done naming the file, add the following content to your file:
+
       ```yaml
       ---
       layout: slide
@@ -40,8 +45,9 @@ The following steps will guide you through the process of committing a change on
       Your text
       Use the left arrow to go back!
       ```
+
 1. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view. For guidelines on commit messages, check out the **Commits 101** drop-down, just above these instructions
 1. When you’ve entered a commit message, click **Commit new file**
 
-<hr>
+---
 <h3 align="center">I'll respond when I detect a new commit on this branch.</h3>

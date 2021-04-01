@@ -41,4 +41,4 @@ None. This course is a great introduction for your first day on GitHub.
 
 ## Audience
 
-New developers, new GitHub users, users new to Git, students, managers, teams
+P2P Hack Club (and any other curious hackers)
